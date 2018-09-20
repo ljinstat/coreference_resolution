@@ -11,7 +11,9 @@ If you do not use AllenNLP, you can also prepare data from scratch.
 * Unzip all *.tar.gz, you will find that all folders are merged to a top-level directory conll-2012.
 * If you use Python 3, you must modify the file conll-2012/v3/scripts/skeleton2conll.py to adapt to Python 3 syntax (exception ... as e, print()).
 * Execute 
+
   ```bash your-path/conll-2012/v3/scripts/skeleton2conll.sh -D your-path/ontonotes-v5.0-release/data/files/data conll-data```
+  
 At last, transformed \*_conll data will be embedded directly in conll-2012.
 
 
