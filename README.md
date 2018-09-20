@@ -3,7 +3,7 @@
 ## Data preparation and transformation for CoNLL 2012
 
 ### First choice
-The first choice to transform OntoNote data into CoNLL 2012 format is directly use a bash script in AllenNLP package: allennlp/scripts/compile_coref_data.sh.
+The first choice to transform OntoNote data into CoNLL 2012 format is directly using a bash script in AllenNLP package: allennlp/scripts/compile_coref_data.sh.
 
 ### Second choice
 If you do not use AllenNLP, you can also prepare data from scratch.
